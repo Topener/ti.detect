@@ -3,6 +3,8 @@ A simple titanium library which detects things for you.
 
 Right now it _only_ contains wether or not the current iPhone has a notch.
 
+Want it to detect other things? Raise a ticket or submit a PR!
+
 ## Installing it
 For installing, just install it through npm in the `app/lib` directory
 
