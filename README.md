@@ -3,6 +3,13 @@ A simple titanium library which detects things for you.
 
 Right now it _only_ contains wether or not the current iPhone has a notch.
 
+## Installing it
+For installing, just install it through npm in the `app/lib` directory
+
+```
+npm i ti.detect
+```
+
 ## Including it
 Just require the library in `alloy.js`, nothing else is needed.
 
