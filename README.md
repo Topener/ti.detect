@@ -43,3 +43,10 @@ So this is useful if you want to avoid the statusbar, regardless wether or not t
     backgroundColor: "#777"
 }
 ```
+
+Or using it as a condition
+```
+"#myView[if=Alloy.CFG.TiDetect.hasNotch]": {
+
+}
+```
