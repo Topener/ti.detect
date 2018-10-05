@@ -22,7 +22,7 @@ require('ti.detect');
 ## Generated CFG / Reference
 When you have required the library, CFG will be prefilled for you as follows
 
-```json
+```
 {
     "statusbarHeight": 20 // or 44 when device has a notch
     "hasNotch": false // or true
