@@ -1,0 +1,23 @@
+{
+  "name": "ti.detect",
+  "version": "1.0.0",
+  "description": "A simple Titanium library to detect things",
+  "main": "ti.detect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Topener/ti.detect.git"
+  },
+  "keywords": [
+    "titanium-module",
+    "titanium"
+  ],
+  "author": "Rene Pot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Topener/ti.detect/issues"
+  },
+  "homepage": "https://github.com/Topener/ti.detect#readme"
+}
