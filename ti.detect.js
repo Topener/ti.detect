@@ -22,6 +22,7 @@ function hasIOSNotch(){
 function init(){
     hasNotch = OS_IOS && hasIOSNotch();
     Alloy.CFG.TiDetect.statusbarHeight = hasNotch ? 44 : 20;
+    Alloy.CFG.TiDetect.hasNotch = hasNotch;
 }
 
 init();
