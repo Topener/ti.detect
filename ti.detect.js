@@ -20,9 +20,15 @@ function hasIOSNotch(){
 }
 
 function init(){
-    hasNotch = OS_IOS && hasIOSNotch();
+    hasNotch = Ti.Platform.osname === 'iphone' && hasIOSNotch();
     Alloy.CFG.TiDetect.statusbarHeight = hasNotch ? 44 : 20;
     Alloy.CFG.TiDetect.hasNotch = hasNotch;
 }
 
 init();
+
+// exporting init function. There is no need to call this 
+// unless you want to re-evaluate properties. (which shouldn't be needed at all)
+module.exports = {
+    init: init
+};
