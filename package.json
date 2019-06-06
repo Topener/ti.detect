@@ -1,6 +1,6 @@
 {
   "name": "ti.detect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple Titanium library to detect things",
   "main": "ti.detect.js",
   "scripts": {
