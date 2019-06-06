@@ -11,7 +11,7 @@ function hasIOSNotch(){
     }
 
     if ( 
-        // iPhone XR max/XR max
+        // iPhone XR/XS max
         Ti.Platform.displayCaps.platformWidth === 414 && 
         Ti.Platform.displayCaps.platformHeight === 896 && 
         ( Ti.Platform.displayCaps.logicalDensityFactor === 2 || Ti.Platform.displayCaps.logicalDensityFactor === 3) ) {
